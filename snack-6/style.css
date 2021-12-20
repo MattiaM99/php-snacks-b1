@@ -1,0 +1,30 @@
+.container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.teachers{
+  width: 50%;
+  background-color: grey;
+  text-align: center;
+  color: white;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.pm{
+  width: 50%;
+  background-color: green;
+  text-align: center;
+  color: white;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
