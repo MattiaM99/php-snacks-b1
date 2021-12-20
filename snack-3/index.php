@@ -39,7 +39,16 @@ $posts = [
         ]
     ],
 ];
+foreach ($posts as $date => $date_posts) { 
+  echo $date . "<br>" ; 
+  foreach ($date_posts as $post){
+    echo $post['title'] . "<br>";            
+    echo $post['text'] . "<br>"; 
+    echo $post['author'] . "<br>" . "<br>";       
+  }
+} 
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
